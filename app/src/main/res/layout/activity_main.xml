@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/userImageViewId"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userNameTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/userTypeTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/userCompanyNameTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/userLocationTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed"/>
+
+
+        <TextView
+            android:id="@+id/userPublicRepoNumberTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <Button
+            android:id="@+id/repositoryButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REPOSITORY"
+            android:layout_marginTop="10dp"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+
+</LinearLayout>
